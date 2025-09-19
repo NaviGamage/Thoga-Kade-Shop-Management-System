@@ -78,11 +78,25 @@ public class CustomerManagementFormController {
     @FXML
     void btnAddOnAction(ActionEvent event) {
 
+        String CustID = txtCustID.getText();
+        String CustTitle = comboTitle.getValue();
+        String CustName = txtName.getText();
+        String DOB = txtDOB.getText();
+        double Salary = Double.parseDouble(txtSalary.getText());
+        String Address = txtAddress.getText();
+        String City = txtCity.getText();
+        String Province = txtProvince.getText();
+        String Postalcode = txtPostalCode.getText();
+
+
+
 
     }
 
     @FXML
     void btnClearOnAction(ActionEvent event) {
+
+        clearData();
 
     }
 
